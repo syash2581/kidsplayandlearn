@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825538923562",
+    "project_id": "play-4730f",
+    "storage_bucket": "play-4730f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825538923562:android:80f957dff77631f5aec753",
+        "android_client_info": {
+          "package_name": "com.example.Play"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825538923562-rr6uqlkvt4sl20c9hjp9ohbdsttr3bik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYG3Wq0Ho89_OTt1cyP-dw6HzelM5WtCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825538923562-rr6uqlkvt4sl20c9hjp9ohbdsttr3bik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

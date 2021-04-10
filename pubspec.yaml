@@ -1,0 +1,109 @@
+name: PlayAndLearn
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_statusbar_manager : #for hiding status bar i.e battery bar
+  flutter_gifimage: ^1.0.0 #to support gif images
+  audioplayers: ^0.16.1 #to support backend music
+  connectivity: ^2.0.2 #to check wifi connectivity
+  flutter_launcher_icons: ^0.8.0 #to have application icons
+  property_change_notifier: ^0.2.0 #to have a notifier when some variable's value is changed
+  shared_preferences: #to save parental controls in form of key value pair
+  firebase_core: ^0.7.0 #firebase core to initialize the basic things
+  firebase_storage: ^7.0.0 #Firebase storage to get images from firebase
+  firebase_database: ^6.0.0 #to use realtime database
+  carousel_slider: ^2.3.1 #to use categories as a slider
+  flutter_tts: ^2.1.0 #flutter text to speech library
+  #model_viewer: ^0.8.1 #to display 3d shapes/images
+  google_fonts: ^1.1.2
+  flutter_windowmanager: ^0.0.2 #prevent screenshot and screen recording
+  firebase_messaging:  #For send push notification
+  path_provider: ^1.6.27 #to create file on local storage
+  flutter_downloader: ^1.5.2 #to download a file from a link
+  permission_handler: ^5.1.0+2 #to have permission of storing files
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/welcomeimages/
+    - assets/background/
+    - assets/tunes/
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Cursive
+      fonts:
+          - asset: fonts/COMIC.ttf
+          - asset: fonts/ComicSansMS3.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+#this is for launchar icon /App Icon/logo
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
